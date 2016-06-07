@@ -10,37 +10,37 @@ var g = document.getElementById('g-note');
 var a = document.getElementById('a-note');
 var b = document.getElementById('b-note');
 
-$('#c').mousedown(function() {
+$('#c').mouseover(function() {
   c.currentTime = 0;
   c.play();
 });
 
-$('#d').mousedown(function() {
+$('#d').mouseover(function() {
   d.currentTime = 0;
   d.play();
 });
 
-$('#e').mousedown(function() {
+$('#e').mouseover(function() {
   e.currentTime = 0;
   e.play();
 });
 
-$('#f').mousedown(function() {
+$('#f').mouseover(function() {
   f.currentTime = 0;
   f.play();
 });
 
-$('#g').mousedown(function() {
+$('#g').mouseover(function() {
   g.currentTime = 0;
   g.play();
 });
 
-$('#a').mousedown(function() {
+$('#a').mouseover(function() {
   a.currentTime = 0;
   a.play();
 });
 
-$('#b').mousedown(function() {
+$('#b').mouseover(function() {
   b.currentTime = 0;
   b.play();
 });
