@@ -12,7 +12,6 @@ body {
   top: 0; left: 0; bottom: 0; right: 0;
 }
 
-
 .box {
   width: 100px;
   height: 100px;
@@ -27,33 +26,43 @@ body {
   border-radius: 3px;
 }
 
+#c:active {
+  background-color: #db1d2d;
+}
+
 #c:hover {
-    background-color: #661920;
-    cursor: pointer;
+  background-color: #661920;
+  cursor: pointer;
 }
 
 #d {
   background-color: #422018;
   border: 3px solid #f0421c;
   border-radius: 3px;
+}
 
+#d:active {
+  background-color: #f0421c;
 }
 
 #d:hover {
-    background-color: #6e2819;
-    cursor: pointer;
+  background-color: #6e2819;
+  cursor: pointer;
 }
 
 #e {
   background-color: #45391b;
   border: 3px solid #fec02d;
   border-radius: 3px;
+}
 
+#e:active {
+  background-color: #fec02d;
 }
 
 #e:hover {
-    background-color: #735b20;
-    cursor: pointer;
+  background-color: #735b20;
+  cursor: pointer;
 }
 
 #f {
@@ -62,16 +71,23 @@ body {
   border-radius: 3px;
 }
 
+#f:active {
+  background-color: #20d071;
+}
+
 #f:hover {
   background-color: #1b613b;
   cursor: pointer;
 }
 
-
 #g {
   background-color: #18323e;
   border: 3px solid #1a9ddb;
   border-radius: 3px;  border-radius: 3px;
+}
+
+#g:active {
+  background-color: #1a9ddb;
 }
 
 #g:hover {
@@ -85,6 +101,10 @@ body {
   border-radius: 3px;
 }
 
+#a:active {
+  background-color: #a13fad;
+}
+
 #a:hover {
   background-color: #4e2753;
   cursor: pointer;
@@ -94,6 +114,10 @@ body {
   background-color: #43293d;
   border: 3px solid #f26fd4;
   border-radius: 3px;
+}
+
+#b:active {
+  background-color: #f26fd4;
 }
 
 #b:hover {
